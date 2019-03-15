@@ -1,0 +1,5 @@
+---
+- name: Create a ext2 filesystem on /dev/sdb1
+  filesystem:
+    fstype: xfs
+    dev: /dev/sdb1
